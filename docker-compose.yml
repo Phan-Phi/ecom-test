@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  thehill-erp-frontend-next:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    env_file:
+      - ./.env
+      - ./.env.production
+    ports:
+      - 3000:3000
