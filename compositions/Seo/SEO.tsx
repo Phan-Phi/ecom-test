@@ -38,9 +38,10 @@ const SEO = (props: SEOProps) => {
         locale: "vi",
         images: [
           {
-            // url: _seoImage,
-            url: "/img/thumbnail_seo.jpg",
+            url: _seoImage,
+            // url: "/img/thumbnail_seo.jpg",
             alt: store_name ? store_name : "",
+            type: "image/jpeg",
           },
         ],
       }}
